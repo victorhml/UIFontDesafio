@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *nomeAqui;
+@property (weak, nonatomic) IBOutlet UITextField *nome;
+- (IBAction)Alterar:(id)sender;
+- (IBAction)campoTexto:(id)sender;
+- (IBAction)helvetica:(id)sender;
+
+-(void)touchesBegan:(NSSet *)touches withEvent: (UIEvent *)event;
 
 @end
 
